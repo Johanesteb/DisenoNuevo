@@ -1,0 +1,106 @@
+.DisenoTecnico {
+        .custom-h2 {
+            font-size: 22px;
+            color: #222;
+            font-weight: bold;
+        }
+
+        .custom-subT {
+            font-size: 14px;
+            color: #4a5568;
+            font-weight: normal;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .line {
+            height: 2px;
+            background-color: #0da487;
+            margin: 0 10px;
+            width: 3%;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .col-1.frame {
+            background-color: #f8f8f8;
+            margin: 0% 1% 0% 0%;
+            width: 190px;
+            height: 150px;
+            text-align: center;
+            padding: 10px;
+            transition: all 0.3s;
+            overflow: hidden;
+        }
+
+        .col-1.frame:hover {
+            background-color: #0da487;
+        }
+
+        .col-1.frame:hover p {
+            color: #FFF;
+        }
+
+        .col-1.frame p,
+        .col-1.frame img.hover-icon {
+            font-size: 14px;
+            color: #222;
+            font-weight: bold;
+            width: 60px;
+            height: 60px;
+		    margin: 0;
+		    padding: 0.3px;
+		    min-font-size: 10px;
+        }
+
+        /* Media Queries */
+        @media (min-width: 100px) and (max-width: 767px) {
+            .col-1.frame {
+                width: 100px;
+                height: 46px;
+            }
+
+            .col-1.frame p,
+            .col-1.frame img.hover-icon {
+                font-size: 8px;
+                width: 20px;
+                height: 20px;
+                
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1199px) {
+            .col-1.frame {
+                width: 111px;
+                height: 76px;
+            }
+
+            .col-1.frame p,
+            .col-1.frame img.hover-icon {
+                font-size: 13px;
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .col-1.frame {
+                width: 190px;
+                height: 150px;
+            }
+
+            .col-1.frame p,
+            .col-1.frame img.hover-icon {
+                font-size: 14px;
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+
+}
